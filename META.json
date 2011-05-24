@@ -1,0 +1,51 @@
+{
+   "abstract" : "Extract information from the C<$VERSION> and C<%IRSSI> headers of an Irssi script.",
+   "author" : [
+      "Tom Feist <shabble+cpan@metavore.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110580",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Irssi-Script-InfoParser",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Log::Any" : 0,
+            "Moose" : 0,
+            "PPI" : 0,
+            "PPI::Document" : 0,
+            "PPI::Dumper" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Log::Any::Test" : 0,
+            "Test::Differences" : 0,
+            "Test::Exception" : 0,
+            "Test::More" : 0,
+            "YAML::Any" : 0
+         }
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com:shabble/irssi-script-infoparser.git",
+         "web" : "https://github.com/shabble/irssi-script-infoparser.git"
+      }
+   },
+   "version" : "0.001"
+}
+

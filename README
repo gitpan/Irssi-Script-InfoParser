@@ -1,0 +1,13 @@
+
+
+This archive contains the distribution Irssi-Script-InfoParser,
+version 0.001:
+
+  Extract information from the C<$VERSION> and C<%IRSSI> headers of an Irssi script.
+
+This software is copyright (c) 2011 by Tom Feist.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+

@@ -1,0 +1,28 @@
+---
+abstract: 'Extract information from the C<$VERSION> and C<%IRSSI> headers of an Irssi script.'
+author:
+  - 'Tom Feist <shabble+cpan@metavore.org>'
+build_requires:
+  Log::Any::Test: 0
+  Test::Differences: 0
+  Test::Exception: 0
+  Test::More: 0
+  YAML::Any: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110580'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Irssi-Script-InfoParser
+requires:
+  Log::Any: 0
+  Moose: 0
+  PPI: 0
+  PPI::Document: 0
+  PPI::Dumper: 0
+resources:
+  repository: git://github.com:shabble/irssi-script-infoparser.git
+version: 0.001
