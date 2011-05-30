@@ -622,7 +622,7 @@ Irssi::Script::InfoParser - Extract information from the C<$VERSION> and C<%IRSS
 
 =head1 VERSION
 
-version 0.002
+version 0.004
 
 =head1 SYNOPSIS
 
