@@ -26,13 +26,15 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'Irssi::Script::InfoParser',
   'PREREQ_PM' => {
+    'ExtUtils::MakeMaker' => '0',
     'Log::Any' => '0',
     'Moose' => '0',
     'PPI' => '0',
     'PPI::Document' => '0',
-    'PPI::Dumper' => '0'
+    'PPI::Dumper' => '0',
+    'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.001',
+  'VERSION' => '0.002',
   'test' => {
     'TESTS' => 't/*.t'
   }

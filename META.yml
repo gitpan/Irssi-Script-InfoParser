@@ -18,11 +18,13 @@ meta-spec:
   version: 1.4
 name: Irssi-Script-InfoParser
 requires:
+  ExtUtils::MakeMaker: 0
   Log::Any: 0
   Moose: 0
   PPI: 0
   PPI::Document: 0
   PPI::Dumper: 0
+  namespace::autoclean: 0
 resources:
   repository: git://github.com:shabble/irssi-script-infoparser.git
-version: 0.001
+version: 0.002
